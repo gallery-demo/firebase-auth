@@ -1,0 +1,19 @@
+image: vigneshv59/gallery-firebase
+stages:
+  - one
+  - two
+jobs:
+  echo:
+    script:
+      - echo "hi"
+      - echo "bye"
+    stage: one
+  echotwo:
+    script:
+      - echo "two"
+    stage: one
+  final:
+    script:
+      - firebase use $GOOGLE_PROJECT_ID
+      - firebase deploy
+    stage: two
