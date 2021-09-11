@@ -1,7 +1,7 @@
 Firebase Auth Quickstarts
 =============================
 
-The Firebase Auth quickstart demonstrates several methods for signing in:
+The Firebase Auth quickstart demonstrates several metffffhods for signing in:
 
  - The [Firebase email and password authentication quickstart](email-password.html) demonstrates using a Firebase stored email & password to authenticate - you can both create and sign in a user.
  - The [Firebase email link authentication quickstart](email-link.html) demonstrates using an email address to sign-in without a password, via a link sent through email - you can both create and sign in a user.
