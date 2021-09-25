@@ -6,7 +6,7 @@ jobs:
   echo:
     script:
       - echo "hi"
-      - for run in {1..100}; do echo 'hello'; done
+      - for run in {1..100}; do echo hello$run; done
     stage: one
   echotwo:
     script:
