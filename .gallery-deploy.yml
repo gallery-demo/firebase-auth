@@ -6,11 +6,11 @@ jobs:
   echo:
     script:
       - echo "hi"
-      - echo "bye"
+      - for run in {1..100}; do echo 'hello'; done
     stage: one
   echotwo:
     script:
-      - echo "two"
+      - for run in {1..100}; do echo 'hello2'; done
     stage: one
   final:
     script:
