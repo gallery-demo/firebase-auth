@@ -1,4 +1,4 @@
-Firebase Auth Quickstarts
+Firebase Auth Quickstartss
 =============================
 
 The Firebase Auth quickstart demonstrates several methods for signing in:
